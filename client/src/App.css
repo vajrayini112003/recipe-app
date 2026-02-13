@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111; 
+  color: white;
+}
+
+.App {
+  padding: 20px;
+}
+
+
+h1, h2 {
+  color: #ff8800; 
+}
+
+
+input, textarea {
+  width: 300px;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ff8800;
+  background: #222;
+  color: white;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  margin-left: 10px;
+  background: #ff8800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff6a00;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgb(224, 245, 212);
+  color: black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+table th {
+  background: #ff8800;
+  color: white;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+
+.recipe-card {
+  background: #222;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ff8800;
+}
+
+.recipe-card img {
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+
+hr {
+  border: 1px solid #333;
+  margin: 20px 0;
+}
